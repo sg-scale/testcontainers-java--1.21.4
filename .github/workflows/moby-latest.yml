@@ -26,7 +26,7 @@ jobs:
 
       - name: Install Stable Docker
         id: setup_docker
-        uses: docker/setup-docker-action@v4
+        uses: docker/setup-docker-action@v5
         with:
           channel: ${{ matrix.channel }}
           rootless: ${{ matrix.rootless }}
